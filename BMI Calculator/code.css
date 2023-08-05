@@ -1,0 +1,54 @@
+/* Set basic styling for the entire page */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container to center content and add styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto; /* Center the container horizontally */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+  color: #333; /* Dark gray text color */
+}
+
+/* Style the input container */
+.input-container {
+  margin-bottom: 10px;
+  text-align: left; /* Align the input elements to the left */
+}
+
+/* Style number input fields */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+  background-color: #4caf50; /* Green background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the result section */
+#result {
+  margin-top: 20px;
+  font-weight: bold; /* Make the result text bold */
+}
